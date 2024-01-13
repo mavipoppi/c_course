@@ -1,0 +1,18 @@
+  Operator     |          Meaning         |       Example
+     ==        |         Equal to         |     count == 10
+    !=         |       Not equal to       |     flag != DONE
+     <         |        Less than         |        a < b
+    <=         |   Less than or equal to  |     low <= high
+     >         |       Greater than       | pointer > end_of_list
+    >=         | Greater than or equal to |       j >= 0
+
+
+Example: 
+
+a < b + c
+
+is evaluated as 
+
+a < (b + c)
+
+and it would be TRUE if the value of a were than the value of b + c and FALSE otherwise.
