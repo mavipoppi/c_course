@@ -1,0 +1,6 @@
+The syntax used to construct the while statement is as follows:
+
+while (expression)
+    program statement
+
+The expression inside the parentheses is evaluated. If the result of the expression is TRUE, the program statement is executed. After execution of this statement, the expression is once again evaluated. This process continues until the expression finally evaluates as FALSE, at which point the loop ends. An example is given in the 2_while file.

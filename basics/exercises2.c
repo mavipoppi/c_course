@@ -6,24 +6,24 @@
 
 /*16) Write a program to convert a given integer (in days) to years, months and days, assuming that all months have 30 days and all years have 365 days.*/
 
-int main(void)
-{
-    int total, days, months, years;
+// int main(void)
+// {
+//     int total, days, months, years;
 
-    printf("Input no. of days: ");
-    scanf("%d", &total);
+//     printf("Input no. of days: ");
+//     scanf("%d", &total);
 
-    years = total/365;
-    total = total - years*365;
+//     years = total/365;
+//     total = total - years*365;
 
-    months = total / 30;
-    total = total - months*30;
+//     months = total / 30;
+//     total = total - months*30;
 
-    days = total;
+//     days = total;
 
-    printf("%i years, %i months and %i days.\n", years, months, days);
+//     printf("%i years, %i months and %i days.\n", years, months, days);
     
-}
+// }
 
 /* ------------------------------------------------------------------------------------------------------*/
 
@@ -310,3 +310,102 @@ int main(void)
 // }
 
 /* ------------------------------------------------------------------------------------------------------*/
+
+/*26) Write a C program that reads 5 numbers, counts the number of positive numbers and prints out the average of all positive values*/
+
+// int main(void)
+// {
+//     float numbers[5], total = 0, average;
+//     int j, positive = 0;
+
+//     printf("Input the first number: ");
+//     scanf("%f", &numbers[0]);
+
+//     printf("Input the second number: ");
+//     scanf("%f", &numbers[1]);
+
+//     printf("Input the third number: ");
+//     scanf("%f", &numbers[2]);
+
+//     printf("Input the fourth number: ");
+//     scanf("%f", &numbers[3]);
+
+//     printf("Input the fifth number: ");
+//     scanf("%f", &numbers[4]);
+
+//     for (j = 0; j < 5; j++)
+//     {
+//         if (numbers[j] > 0)
+//         {
+//             positive++;
+//             total += numbers[j];
+//         }
+        
+//     }
+
+//     average = total / positive;
+
+//     printf("Number of positive numbers: %i.\n", positive);
+
+//     printf("Average of the said positive numbers: %.2f.\n", average);
+//  }
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+/*27) Write a program that read 5 numbers and sum all odd values between them.*/
+
+// int main(void)
+// {
+//     int numbers[5], sum = 0, j;
+
+//     printf("Input the first number: ");
+//     scanf("%i", &numbers[0]);
+
+//     printf("Input the second number: ");
+//     scanf("%i", &numbers[1]);
+
+//     printf("Input the third number: ");
+//     scanf("%i", &numbers[2]);
+
+//     printf("Input the fourth number: ");
+//     scanf("%i", &numbers[3]);
+
+//     printf("Input the fifth number: ");
+//     scanf("%i", &numbers[4]);
+
+//     for (j = 0; j < 5; j++)
+//     {
+//         if (numbers[j] % 2 != 0)
+//         {
+//             sum += numbers[j];
+//         }
+//     }
+
+//     printf("The sum of all odd numbers is %i.\n", sum);
+// }
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+/*28) Write a program to find and print the square of all the even values from 1 to a specified value. */
+
+int main(void)
+{
+    int value, j; 
+
+    printf("Specified value: ");
+    scanf("%i", &value);
+
+    printf("List of square of each one of the even values from 1 to a %d :\n", value);
+
+    for (j = 2; j <= value; j++)
+    {
+        if((j%2) == 0)
+        {
+            printf("%i ^ 2 = %i.\n", j, j*j);
+        }
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------*/
+
+/*29) */

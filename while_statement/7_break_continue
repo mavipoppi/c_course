@@ -1,0 +1,17 @@
+The BREAK statement
+
+When executing a loop, it becomes desirable to leave the loop as soon as certain conditions occurs (for example, you detect an error condidtion). Execution of the break statement causes the program to immediately exit from the loop it is executing, whether it's a for, while, or do loop. Subsequent statements in the loop are skipped, and execution of the loop is terminated. 
+
+If a break is executed from within a set of nested loops, only the innermost loop which the break is executed is terminated.
+
+The format of the break statement is simply the keyword break;
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+The CONTINUE statement
+
+The continue statement is similar to the break statement except it doesnt cause the loop to terminate. Rather, as its name implies, this statement causes the loop i which it is executed to be continued. At the point that the continue statement is executed, any statements in the loop that appear after the continue statement are automatically skipped. Execution of the loop otherwise continues as normal. 
+
+The continue statement is most often used to bypass a froup of statements inside a loop based upon some condition, but to otherwise continue execution of the loop. The format of the continue statement is simply
+
+continue; 

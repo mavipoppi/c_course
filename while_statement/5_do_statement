@@ -1,0 +1,11 @@
+The syntax of this statement is as follows:
+
+do
+    program statement;
+while (loop_expression);
+
+The execution proceed as follows: the program statement is executed first. Next, the loop_expression inside the parentheses is evaluated. If the result of evaluating the loop_expression is TRUE, the loop continues and the program statement is once again executed.  When evalutation of the expression proves FALSE, the loop is terminated. 
+
+OBS: unlike the for and while loops, the do statement guarantees that the body of the loop is executed at least once. 
+
+An example of this statement is given in 6_do_example.
