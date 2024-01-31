@@ -1,0 +1,19 @@
+The general format of this statement is
+
+if ( expression )
+    program statement 
+
+For example, if you want to translate a statement such as "If its not raining, than I will go swimming into C language, you could write 
+
+if (it is not raining)
+    I will go swimming
+
+The if condition is used to estipulate execution of a program statement based upon specified conditions. 
+
+Another example:
+
+if (count > count_limit)
+    printf("Count limit exceeded\n");
+
+the printf statement is executed only if the value of count is greater than the value of count_limit; otherwise, it is ignored. 
+
