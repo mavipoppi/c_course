@@ -1,0 +1,37 @@
+It is perfectly valid that the program statement be another if statement:
+
+if (gameisover == 0)
+    {if (playertomove == you)
+        printf("Your move.\n"); 
+    }
+
+If the value of gameisover is 0, the following statement is executed, which is another if statement. This if statement compares the value of playertomove against you. If the two values are equal, the message "Your move." is displayed. Therefore, the printf statement is executed only if gameiover equals 0 and playertomove equals you. We could write the statement using compound relationals as follows: 
+
+if (gameisover == 0 && playertomove == you)
+    {printf("Your move.\n");
+    }
+
+A more practical example of "nested" if statements is if you added an else clause to the previous example, as follows:
+
+if (fameisover == 0)
+    {if (playertomove == you)
+        printf("Your move.\n");
+    
+    else
+        printf("My move.\n")
+    }
+
+We could even add another else clause to the othermost if statement in the preceding example. This else clause is executed if the value of gameisover is not 0. 
+
+if (gameisover == 0)
+    {if (playertomove == you)
+        printf("Your move.\n");
+    else 
+        printf("My move.\n");
+    }
+
+else
+    {printf("The game is over.\n");
+    }
+
+    
